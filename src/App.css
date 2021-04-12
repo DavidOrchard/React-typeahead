@@ -1,0 +1,48 @@
+.App {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  padding: 15px;
+}
+
+.inputContainer {
+  border-radius: 5px;
+  border-width: 2px;
+  border-color: #aaaaaa;
+  border-style: solid;
+}
+
+.input {
+  padding: 10px;
+  border: none;
+  border-bottom: 1px solid;
+  height: 18px;
+  font-size: medium;
+}
+
+.search {
+  padding: 10px;
+  margin-left: 10px;
+  background-color: #4e8fdf;
+  color: #b7d0f1;
+  border-radius: 5px;
+  height: 100%;
+  font-size: medium;
+  width: 100px;
+}
+
+.matchedFragment {
+  font-weight: bold;
+}
+
+.dropDown {
+  padding-inline-start: 10px;
+}
+.dropDown li {
+  list-style-type: none;
+  text-align: left;
+  font-size: medium;
+}
